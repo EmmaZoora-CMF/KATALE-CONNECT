@@ -158,6 +158,7 @@ Katale Connect provides a practical demonstration of how a mobile-first static w
 - Firebase Hosting Documentation: https://firebase.google.com/docs/hosting
 - HTML Living Standard: https://html.spec.whatwg.org/
 - MDN Web Docs (HTML/CSS): https://developer.mozilla.org/
+- HTML/CSS: https://www.w3schools.com/html/default.asp
 
 ## License
 
