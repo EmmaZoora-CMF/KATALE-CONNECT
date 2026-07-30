@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fresh Food Vendors | Katale Connect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">K</span> Katale Connect</a><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="categories.html" aria-current="page">Categories</a><a href="locations.html">Locations</a><a href="search.html">Search</a><a href="list-business.html">List Your Business</a></nav></div></header>
+  <main>
+    <section class="section page-title"><h1>Fresh Food Vendors</h1><p class="lead">A reusable category listing page showing vendor cards filtered by category.</p></section>
+    <section class="section">
+      <form class="filters" action="category.html" method="get">
+        <label class="field">Area<select name="area"><option>Any area</option><option>Nakasero</option><option>Kalerwe</option><option>Owino</option></select></label>
+        <label class="field">Status<select name="status"><option>Any status</option><option>Open now</option><option>Verified</option></select></label>
+        <button type="submit">Apply Filters</button>
+      </form>
+      <div class="grid two">
+        <article class="vendor-card"><header><h2>Nakasero Fresh Basket</h2><span class="rating">Open</span></header><p class="meta">Nakasero Market - Stall F14 - 7:00 AM to 6:00 PM</p><p>Fresh tomatoes, greens, bananas, onions, and seasonal produce.</p><div class="actions"><a class="button" href="tel:+256700000001">Call</a><a class="button secondary" href="vendor.html">Profile</a></div></article>
+        <article class="vendor-card"><header><h2>Kalerwe Greens Point</h2><span class="rating">Verified</span></header><p class="meta">Kalerwe Market - Near taxi stage - 6:30 AM to 7:00 PM</p><p>Leafy greens, fruits, eggs, and household groceries.</p><div class="actions"><a class="button" href="tel:+256700000002">Call</a><a class="button secondary" href="vendor.html">Profile</a></div></article>
+        <article class="vendor-card"><header><h2>Owino Lunch Supplies</h2><span class="rating">Open</span></header><p class="meta">Owino - Shop B8 - 8:00 AM to 5:30 PM</p><p>Rice, beans, spices, cooking oil, and bulk food basics.</p><div class="actions"><a class="button" href="tel:+256700000003">Call</a><a class="button secondary" href="vendor.html">Profile</a></div></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><p><a href="categories.html">Back to Categories</a> | <a href="contact.html">Report a listing</a></p></div></footer>
+</body>
+</html>

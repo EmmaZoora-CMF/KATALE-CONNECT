@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Results | Katale Connect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">K</span> Katale Connect</a><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="locations.html">Locations</a><a href="search.html" aria-current="page">Search</a><a href="list-business.html">List Your Business</a></nav></div></header>
+  <main>
+    <section class="section page-title"><h1>Search Results</h1><p class="lead">Use keywords, categories, and locations to find a nearby vendor.</p></section>
+    <section class="section">
+      <form class="filters" action="search.html" method="get">
+        <label class="field">Keyword<input name="q" type="search" placeholder="Search product, service, or vendor"></label>
+        <label class="field">Category<select name="category"><option>Any category</option><option>Fresh Food</option><option>Tailoring</option><option>Phone Repair</option></select></label>
+        <label class="field">Location<select name="area"><option>Any location</option><option>Nakasero</option><option>Owino</option><option>Wandegeya</option></select></label>
+        <button type="submit">Search</button>
+      </form>
+      <div class="notice"><strong>Example query:</strong> Search for "tailor near Owino" to see how category, location, and keyword discovery converge into one results template.</div>
+      <div class="grid two" style="margin-top:1rem">
+        <article class="vendor-card"><header><h2>Amina Tailoring Corner</h2><span class="rating">Verified</span></header><p class="meta">Tailoring - Owino - WhatsApp available</p><p>Uniforms, alterations, gomesi repairs, measurements, and fabric advice.</p><a class="button secondary" href="vendor.html">View Profile</a></article>
+        <article class="vendor-card"><header><h2>Wandegeya Phone Fix</h2><span class="rating">Open</span></header><p class="meta">Phone Repair - Wandegeya - 8:00 AM to 8:00 PM</p><p>Screen repair, phone accessories, chargers, and same-day diagnostics.</p><a class="button secondary" href="vendor.html">View Profile</a></article>
+      </div>
+      <section class="notice" style="margin-top:1rem"><h2>No Results State</h2><p>If no matching vendor is found, the page should suggest browsing all categories, trying another location, or contacting support to recommend a vendor.</p></section>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><p><a href="categories.html">Browse Categories</a> | <a href="locations.html">Browse Locations</a> | <a href="contact.html">Get help</a></p></div></footer>
+</body>
+</html>

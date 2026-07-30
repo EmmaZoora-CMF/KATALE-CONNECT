@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>List Your Business | Katale Connect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header"><div class="nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">K</span> Katale Connect</a><nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="categories.html">Categories</a><a href="locations.html">Locations</a><a href="search.html">Search</a><a href="list-business.html" aria-current="page">List Your Business</a></nav></div></header>
+  <main>
+    <section class="section page-title"><h1>List Your Business</h1><p class="lead">Submit listing details and verification documents so customers can trust that vendors are genuine.</p></section>
+    <section class="section">
+      <form class="card" action="submitted.html" method="get" enctype="multipart/form-data">
+        <div class="form-grid">
+          <label class="field">Business name<input name="business_name" required></label>
+          <label class="field">Category<select name="category" required><option value="">Choose one</option><option>Fresh Food</option><option>Tailoring</option><option>Phone Repair</option><option>Small Retail</option><option>Food Vendor</option><option>Repair Service</option></select></label>
+          <label class="field">Market or area<input name="location" required placeholder="Example: Owino, Nakasero, Kalerwe"></label>
+          <label class="field">Phone number<input name="phone" type="tel" required></label>
+          <label class="field">WhatsApp number<input name="whatsapp" type="tel"></label>
+          <label class="field">Business hours<input name="hours" placeholder="Example: Mon-Sat, 8 AM-6 PM"></label>
+          <label class="field full">Short description<textarea name="description" rows="5" required placeholder="What do you sell or provide?"></textarea></label>
+          <label class="field">Trading license<input name="trading_license" type="file" accept=".pdf,.jpg,.jpeg,.png" required></label>
+          <label class="field">Certificate of Incorporation<input name="certificate_incorporation" type="file" accept=".pdf,.jpg,.jpeg,.png" required></label>
+        </div>
+        <p class="meta">Submitted listings are reviewed before publication. Verification documents are used only to confirm that the vendor or business is genuine.</p>
+        <p class="meta">Firebase note: a live deployment can connect these file fields to Firebase Storage and save listing records in Firestore.</p>
+        <input type="submit" value="Submit Listing">
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-inner"><p><a href="faq.html">Listing questions</a> | <a href="privacy.html">Data use</a></p></div></footer>
+</body>
+</html>
