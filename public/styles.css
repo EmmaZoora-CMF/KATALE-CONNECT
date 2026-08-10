@@ -181,6 +181,10 @@ input[type="submit"] {
   position: absolute;
 }
 
+.Katale {
+  color:blueviolet
+}
+
 .hero-content {
   inset: 0;
   margin: 0 auto;
